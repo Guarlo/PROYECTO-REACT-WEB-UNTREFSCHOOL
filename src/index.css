@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* :root {
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+} */
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #e4ebee;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+.containerCard{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
+h1 {
+  font-size: 2.125em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+p{
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1.5625rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+span.resultado {
+  position: relative;
+  width: 100%;
+}
+
+.resultado-enter {
+  transition: .5s;
+}
+
+.resultado-enter.resultado-enter-active{
+  transform: translateY(0%);
+}
+
+.resultado-exit{
+  transform: translateY(0);
+  transition: .5s;
+  position : absolute;
+  left: 0;
+  bottom : 0;
+  right: 0;
+}
+
+.resultado-exit-active{
+  opacity: 0;
+  transform: translateY(-10%);
+}
+
+@media screen and (max-width: 1060px) {
+
+  body {
+      font-size: 14px;
+  }
+
+  .container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  
+  body {
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,42 @@
+.containerHistorial {
+  width: 100%;
+  margin-top: 2em;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.25em;
+  row-gap: 1.25em;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      270px,
+      1fr
+      )
+      );
+}
+
+.cardHistorial {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.527);
+  border: rgba(206, 206, 206, 0.815) solid 1px;
+  padding: 2em;
+  padding-bottom: 0.5em;
+}
+
+.cotizacion {
+  /* color: #fa625f; */
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 500;
+  color: black;
+}
+
+hr {
+  border: rgb(226, 226, 226) solid 0.1em;
+  margin-top: -1em;
+  margin-bottom: 2em;
+}
