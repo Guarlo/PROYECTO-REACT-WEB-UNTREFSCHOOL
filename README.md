@@ -1,7 +1,5 @@
 # Proyecto Final Integrador WEB - Diplomatura UNTREF
 
-https://www.guarlo.com.ar/pi3
-
 ## Integrantes:
 -	Gustavo Lombardo
 -	Tomás Ortelli
@@ -20,7 +18,7 @@ Complementario al cotizador se encuentran las páginas de Beneficios del Seguro 
 
 ## Referencias para instalar el proyecto.
 En caso de que el proyecto no funcione, proseguir con los siguientes pasos:
-# >
+# 
 Se debe descargar y en la consola se deben ejecutar las siguientes instrucciones:
     Crear un proyecto con:
      > npm create vite@latest proyecto_final_react
