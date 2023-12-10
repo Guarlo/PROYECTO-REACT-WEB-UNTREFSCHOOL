@@ -17,7 +17,11 @@ El resultado obtenido una vez apretado el botón de “Cotizar” es el listado 
 
 Complementario al cotizador se encuentran las páginas de Beneficios del Seguro y Productos, donde se aplican conceptos como el array y renderizado de imágenes a través del map. Además, se agrega la página de Contacto, donde se establece un formulario con validaciones.
 
-Para que el proyecto funcione, se debe descargar y en la consola se deben ejecutar las siguientes instrucciones:
+
+## Referencias para instalar el proyecto.
+En caso de que el proyecto no funcione, proseguir con los siguientes pasos:
+# >
+Se debe descargar y en la consola se deben ejecutar las siguientes instrucciones:
     Crear un proyecto con:
      > npm create vite@latest proyecto_final_react
      Luego pegar este proyecto dentro y posicionado en dicha carpeta:
@@ -27,7 +31,7 @@ Para que el proyecto funcione, se debe descargar y en la consola se deben ejecut
      > npm install @emotion/styled
 
 
-
+## Visualización de la página inicial del proyecto.
 <p align="center">
   <a href="https://www.guarlo.com.ar/pi3/">
     <img src="https://guarlo.com.ar/pi3/pantalla_inicial.png" alt="Tecnomax logo" 

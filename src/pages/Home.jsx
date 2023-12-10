@@ -3,7 +3,6 @@ import styled from "@emotion/styled";
 import Form from "../components/Form";
 import Resume from "../components/Resume";
 import Result from "../components/Result";
-import ResumeList from "../components/ResumeList";
 
 const MainContainer = styled.div`
   max-width: 1000px;
@@ -30,7 +29,6 @@ export default function Home() {
         <Form setBudgetObj={setBudgetObj} setCargado={setCargado} />
         <Resume formData={formData} />
         <Result budgetAmount={budgetAmount} formData={formData} setCargado={setCargado} cargado={cargado}/>
-        {/* <ResumeList budgetAmount={budgetAmount} formData={formData} /> */}
       </FormContainer>
     </MainContainer>
   );
